@@ -10,6 +10,10 @@ body {
 .flex-container {
   display: flex;
   background-color: DodgerBlue;
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
 
 }.flex-container > div {
   background-color: #f1f1f1;
