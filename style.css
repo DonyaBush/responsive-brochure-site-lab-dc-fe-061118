@@ -10,7 +10,8 @@ body {
 .flex-container {
   display: flex;
   background-color: DodgerBlue;
-img:hover {
+  
+.img:hover {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
