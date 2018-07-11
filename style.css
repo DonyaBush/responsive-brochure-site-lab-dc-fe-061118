@@ -10,11 +10,15 @@ body {
 .flex-container {
   display: flex;
   background-color: DodgerBlue;
-  
 
+}
 
-
-}.flex-container > div {
+img-airplane:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+    
+.flex-container > div {
   background-color: #f1f1f1;
   margin: 10px;
   padding: 20px;
